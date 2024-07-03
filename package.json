@@ -44,8 +44,5 @@
     "sharp"
   ],
   "trustedDependencies-annotation": "Needed for bun to allow running install scripts",
-  "type": "module",
-  "dependencies": {
-    "react-jsoncanvas": "./react-jsoncanvas"
-  }
+  "type": "module"
 }
