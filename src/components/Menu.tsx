@@ -6,11 +6,11 @@ interface dirs {
   text: string;
 }
 export default component$(() => {
-  const dirs: dirs[] = [{ dir: '/dashboard', text: "Dashboard" }, { dir: '/dailies', text: 'Dailies' }, { dir: '/habits', text: "Habits" }, { dir: '/notes', text: 'Notes' }, { dir: '/tasks', text: 'Tasks' }, { dir: '/quests', text: 'Quests' }, { dir: '/guild', text: ['Guild'] }, { dir: '/shop', text: 'Shop' }]
+  const dirs: dirs[] = [{ dir: '/dashboard', text: "Dashboard" }, { dir: '/notes', text: 'Notes' }, { dir: '/quests', text: 'Quests' }, { dir: '/guild', text: ['Guild'] }, { dir: '/shop', text: 'Shop' }]
   return (
-    <header class="bg-bg h-[fit] py-2 border-solid border-4 border-black">
+    <header class="bg-bg h-[fit] pb-2 border-solid border-4 border-black">
       <div>
-        <h1 class="text-5xl text-main font-display pt-3 pl-3">Rpgamify👾</h1>
+        <h1 class="text-4xl text-main font-display pt-1 pl-3">Rpgamify👾</h1>
       </div>
       <div class="flex gap-10 mt-5">
         {dirs.map((dir) => <LinkItem dir={dir.dir} text={dir.text} />)}

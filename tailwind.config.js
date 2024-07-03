@@ -9,7 +9,8 @@ export default {
       mainAccent: '#B0C0FD', // not needed for shadcn
       text:'#1e1818',
       heart:'#B31C19',
-      golden:'#FBD475'
+      golden:'#FBD475',
+      accent:'#E8E5E5'
     },
     borderRadius: {
       base: '5px'
